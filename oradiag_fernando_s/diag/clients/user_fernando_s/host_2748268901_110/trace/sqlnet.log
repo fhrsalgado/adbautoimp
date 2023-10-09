@@ -1,0 +1,126 @@
+2023-07-09T20:52:34.576885+00:00
+Create Relation ADR_CONTROL
+Create Relation ADR_INVALIDATION
+Create Relation INC_METER_IMPT_DEF
+Create Relation INC_METER_PK_IMPTS
+
+
+***********************************************************************
+
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUFQDJoE+zgYwIAEqwhUA==))(security=(ssl_server_dn_match=yes)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+  Version 21.9.0.0.0
+  Time: 09-JUL-2023 20:52:34
+  Tracing not turned on. Process Id = 5100
+  Tns error struct:
+    ns main err code: 12543
+    
+TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    
+TNS-00513: Destination host unreachable
+    nt secondary err code: 101
+    nt OS err code: 0
+2023-07-09T21:00:15.014918+00:00
+
+
+***********************************************************************
+
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gc55c3c50c45901_atpsp_low.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUi7vtLGBDgYwIAEqx+tA==))(security=(ssl_server_dn_match=yes)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+  Version 21.9.0.0.0
+  Time: 09-JUL-2023 21:00:15
+  Tracing not turned on. Process Id = 6160
+  Tns error struct:
+    ns main err code: 12543
+    
+TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    
+TNS-00513: Destination host unreachable
+    nt secondary err code: 101
+    nt OS err code: 0
+2023-07-09T21:00:52.742987+00:00
+
+
+***********************************************************************
+
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUMsiUXFVrgYwIAEqxUxw==))(security=(ssl_server_dn_match=yes)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+  Version 21.9.0.0.0
+  Time: 09-JUL-2023 21:00:52
+  Tracing not turned on. Process Id = 5466
+  Tns error struct:
+    ns main err code: 12543
+    
+TNS-12543: TNS:destination host unreachable
+    ns secondary err code: 12560
+    nt main err code: 513
+    
+TNS-00513: Destination host unreachable
+    nt secondary err code: 101
+    nt OS err code: 0
+2023-07-09T21:03:50.042243+00:00
+
+
+***********************************************************************
+
+Fatal NI connect error 28759, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gc55c3c50c45901_atpsp_low.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUvrYvEGRrgYwIAEqw0cQ==))(security=(ssl_server_dn_match=yes)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+  Version 21.9.0.0.0
+  Time: 09-JUL-2023 21:03:50
+  Tracing not turned on. Process Id = 6426
+  Tns error struct:
+    ns main err code: 12560
+    
+TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 566
+    
+TNS-00566: SSL protocol adapter failed to open wallet
+    Oracle error 1: 28759
+ORA-28759: failure to open file
+    nt secondary err code: 0
+    nt OS err code: 0
+2023-07-09T21:26:49.177396+00:00
+
+
+***********************************************************************
+
+Fatal NI connect error 12170, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABU3VgIeGfPgYwIAEqwa3Q==))(security=(ssl_server_dn_match=yes)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+  Version 21.9.0.0.0
+  Time: 09-JUL-2023 21:26:49
+  Tracing not turned on. Process Id = 6643
+  Tns error struct:
+    ns main err code: 12535
+    
+TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    
+TNS-00505: Operation timed out
+    nt secondary err code: 0
+    nt OS err code: 0

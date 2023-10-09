@@ -1,0 +1,555 @@
+<msg time='2023-07-09T20:52:34.575+00:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='9aaa1b318f42' host_addr='172.18.0.2'
+ pid='5100' version='3'>
+ <txt>Create Relation ADR_CONTROL
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.616+00:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='9aaa1b318f42' host_addr='172.18.0.2'
+ pid='5100'>
+ <txt>Create Relation ADR_INVALIDATION
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.644+00:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='9aaa1b318f42' host_addr='172.18.0.2'
+ pid='5100'>
+ <txt>Create Relation INC_METER_IMPT_DEF
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.697+00:00' org_id='oracle' comp_id='clients'
+ msg_id='dbgrmmdcrf_create_relation_full:1960:1503427940' type='NOTIFICATION' group='create'
+ level='16' host_id='9aaa1b318f42' host_addr='172.18.0.2'
+ pid='5100'>
+ <txt>Create Relation INC_METER_PK_IMPTS
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.738+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.738+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUFQDJoE+zgYwIAEqwhUA==))(security=(ssl_server_dn_match=yes)))
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.739+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>  Version 21.9.0.0.0
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>  Time: 09-JUL-2023 20:52:34
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>  Tracing not turned on. Process Id = 5100
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    ns main err code: 12543
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.740+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>TNS-12543: TNS:destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    nt main err code: 513
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>TNS-00513: Destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    nt secondary err code: 101
+ </txt>
+</msg>
+<msg time='2023-07-09T20:52:34.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5100'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.014+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.014+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gc55c3c50c45901_atpsp_low.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUi7vtLGBDgYwIAEqx+tA==))(security=(ssl_server_dn_match=yes)))
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>  Version 21.9.0.0.0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>  Time: 09-JUL-2023 21:00:15
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>  Tracing not turned on. Process Id = 6160
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    ns main err code: 12543
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.015+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>TNS-12543: TNS:destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    nt main err code: 513
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>TNS-00513: Destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    nt secondary err code: 101
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:15.016+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6160'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.742+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>
+Fatal NI connect error 12543, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUMsiUXFVrgYwIAEqxUxw==))(security=(ssl_server_dn_match=yes)))
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>  Version 21.9.0.0.0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>  Time: 09-JUL-2023 21:00:52
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>  Tracing not turned on. Process Id = 5466
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    ns main err code: 12543
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.743+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>TNS-12543: TNS:destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    nt main err code: 513
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>TNS-00513: Destination host unreachable
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    nt secondary err code: 101
+ </txt>
+</msg>
+<msg time='2023-07-09T21:00:52.744+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='5466'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.041+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>
+Fatal NI connect error 28759, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gc55c3c50c45901_atpsp_low.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABUvrYvEGRrgYwIAEqw0cQ==))(security=(ssl_server_dn_match=yes)))
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>  Version 21.9.0.0.0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>  Time: 09-JUL-2023 21:03:50
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>  Tracing not turned on. Process Id = 6426
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.042+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    ns main err code: 12560
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>TNS-12560: TNS:protocol adapter error
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    ns secondary err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    nt main err code: 566
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.043+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>TNS-00566: SSL protocol adapter failed to open wallet
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.044+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    Oracle error 1: 28759
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.045+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>ORA-28759: failure to open file
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.045+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    nt secondary err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:03:50.045+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6426'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.177+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>
+
+***********************************************************************
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.177+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>
+Fatal NI connect error 12170, connecting to:
+ (description=(retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=10.0.2.172))(connect_data=(service_name=gc55c3c50c45901_atpsp_high.adb.oraclecloud.com)(CID=(PROGRAM=sqlplus)(HOST=9aaa1b318f42)(USER=fernando_s))(CONNECTION_ID=ABU3VgIeGfPgYwIAEqwa3Q==))(security=(ssl_server_dn_match=yes)))
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.177+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>
+  VERSION INFORMATION:
+	TNS for Linux: Version 21.0.0.0.0 - Production
+	sdp
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.177+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>  Version 21.9.0.0.0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.177+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>  Time: 09-JUL-2023 21:26:49
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>  Tracing not turned on. Process Id = 6643
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>  Tns error struct:
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    ns main err code: 12535
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>TNS-12535: TNS:operation timed out
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    ns secondary err code: 12560
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.178+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    nt main err code: 505
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.179+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.179+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>TNS-00505: Operation timed out
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.179+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    nt secondary err code: 0
+ </txt>
+</msg>
+<msg time='2023-07-09T21:26:49.179+00:00' org_id='oracle' comp_id='clients'
+ type='UNKNOWN' level='16' host_id='9aaa1b318f42'
+ host_addr='172.18.0.2' pid='6643'>
+ <txt>    nt OS err code: 0
+ </txt>
+</msg>

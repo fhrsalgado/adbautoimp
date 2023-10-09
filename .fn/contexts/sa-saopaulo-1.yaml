@@ -1,0 +1,4 @@
+api-url: https://functions.sa-saopaulo-1.oci.oraclecloud.com
+oracle.compartment-id: ocid1.compartment.oc1..aaaaaaaams43gtsm6dbqiqksep72f3cfgoejdxc52ii63yqjdqn6cxqtntuq
+provider: oracle-cs
+registry: gru.ocir.io/groeml5hg6fs/adb-princ-repo
