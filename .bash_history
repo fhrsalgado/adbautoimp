@@ -261,3 +261,24 @@ fn config function ADB-Principal-App oci-adb-client-runsql-python DBSVC "gc55c3c
 echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
 fn config function ADB-Principal-App oci-adb-client-runsql-python DBSVC "adb.sa-saopaulo-1.oraclecloud.com:1522/gc55c3c50c45901_adbprincipal_tp.adb.oraclecloud.com"
 echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
+fn config function ADB-Principal-App oci-adb-client-runsql-python DBSVC "adb.sa-saopaulo-1.oraclecloud.com:1522/gc55c3c50c45901_adbprincipal_tp.adb.oraclecloud.com"
+echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
+./connect 
+fn config function ADB-Principal-App oci-adb-client-runsql-python DBSVC "(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gc55c3c50c45901_adbprincipal_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))"
+echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
+./connect 
+fn help
+fn inspect help
+fn inspect function help
+fn inspect function ADB-Principal-App oci-adb-client-runsql-python
+./connect 
+echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
+fn config function ADB-Principal-App oci-adb-client-runsql-python DBWALLET_OBJECT "Wallet_ADBPrincipal.zip"
+fn config function unset ADB_OCID
+fn config function unset ADB-Principal-App oci-adb-client-runsql-python ADB_OCID
+fn unset function  ADB-Principal-App oci-adb-client-runsql-python ADB_OCID
+fn unset help
+fn help
+fn config help
+fn config function ADB-Principal-App oci-adb-client-runsql-python ADB_OCID  ""
+echo '{"sql":"select sysdate from dual"}' | fn invoke ADB-Principal-App oci-adb-client-runsql-python 
